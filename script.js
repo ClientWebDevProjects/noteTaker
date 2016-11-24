@@ -17,7 +17,11 @@
       appendNote(note);
     }
   });
-  
+
+  clearButton.addEventListener('click', function() {
+    clearNote();
+  });
+
 
   function appendNote(note) {
     var noteDiv = document.createElement('div');
@@ -34,7 +38,9 @@
     textArea.value = "";
   }
 
-
+  function clearNote() {
+    textArea.value = "";
+  }
 
 })()
 
