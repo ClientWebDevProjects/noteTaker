@@ -2,3 +2,25 @@ body {
   margin: 0 auto;
   width: 90%;
 }
+
+#heading {
+  text-align: center;
+}
+
+#text-area {
+  width: 99%;
+}
+.note {
+  border: 1px solid black;
+  // border-radius: 10px;
+  margin: 10px 0 10px 0;
+}
+
+#notes-container {
+  margin-top: 10px;
+}
+
+
+.note p {
+  margin: 10px;
+}
